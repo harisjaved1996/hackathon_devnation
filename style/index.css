@@ -2095,6 +2095,25 @@ img {
   z-index: 99;
   text-decoration: none;
 }
+
+.custom-a {
+  text-decoration: none;
+}
+
+.custom-text {
+  color: #efa764;
+  font-size: 14px;
+  line-height: 1.25;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.custom-text:hover {
+  color: #fff;
+}
+
 .contact-us-text {
   color: #efa764;
   font-size: 0.83em;
@@ -2102,6 +2121,7 @@ img {
   font-weight: 700;
   letter-spacing: 0.1em;
 }
+
 .logo-block {
   position: absolute;
   top: 2.22em;
@@ -3652,7 +3672,6 @@ img {
 .value-image.customer {
   position: absolute;
   /* background-image: url("https://uploads-ssl.webflow.com/615cef747c36a89469258ec8/615d26bac28f15284589a4f3_Customer%20Centric.jpg"); */
-
   /* background-image: url("https://cdn.wallpapersafari.com/67/53/6tHugA.png"); */
   background-image: url("../images/registration.jpg");
   background-position: 50% 50%;
@@ -3769,6 +3788,7 @@ img {
   -ms-flex-align: center;
   align-items: center;
 }
+
 .contact-mask {
   display: -webkit-box;
   display: -webkit-flex;
@@ -3782,6 +3802,7 @@ img {
   -ms-flex-direction: column;
   flex-direction: column;
 }
+
 .hello-underline {
   position: relative;
   width: 100%;
@@ -4165,7 +4186,7 @@ img {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  opacity: 0;
+  opacity: 1;
 }
 .image-opac._1 {
   left: 15em;
