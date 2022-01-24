@@ -679,7 +679,7 @@ cubic-bezier(.075, .82, .165, 1)*/
 
       
       <section data-scroll-section="1" class="section atf wf-section" >
-        <div style=" width: 90%; display: flex; justify-content: space-between;">
+        <div id="navbar-data">
           <a href="#" id="go-to-themes" data-scroll-section="1" class="w-inline-block custom-a">
               <div class="custom-text">Themes</div>
           </a>
@@ -688,6 +688,9 @@ cubic-bezier(.075, .82, .165, 1)*/
           </a>
           <a href="#" id="cont" data-scroll-section="1" class="w-inline-block custom-a">
             <div class="custom-text">Contact Us</div>
+          </a>
+          <a href="#" id="go-to-prizes" data-scroll-section="1" class="w-inline-block custom-a">
+            <div class="custom-text">Prizes</div>
           </a>
         </div>
         
@@ -746,8 +749,8 @@ cubic-bezier(.075, .82, .165, 1)*/
           <header class="header home">
             <img src="images/devnation_logo.png"  alt="">
             <div class="paragraph-wrapper">
-              <p  class="paragraph on-header">
-                <span class="paragraph-split">Think. Code. Innovate.</span>
+              <p  style="font-size: 16px; text-align: center;" >
+                Think. Code. Innovate. Win
               </p>
               <p style="display: none;" class="paragraph on-header">
                 <span class="paragraph-split"
@@ -767,7 +770,7 @@ cubic-bezier(.075, .82, .165, 1)*/
             <div role="list" class="home-latest-list w-dyn-items">
               <div role="listitem" class="home-latest w-dyn-item">
                 <div class="latest-block">
-                  <div class="latest-text-block">
+                  <div style="display: none;" class="latest-text-block">
                     <div
                       data-w-id="777df539-5e18-5701-4bef-3a50c8f07217"
                       class="latest-name-block"
@@ -794,10 +797,13 @@ cubic-bezier(.075, .82, .165, 1)*/
                         About
                       </h2>
                     </div>
-                    <p class="paragraph glide">
+                    <p  class="paragraph glide">
                       DevNation, CreditBook and COLABS have come together to bring to you the most awaited event of the YEAR - 48 hours of JUST Coding. 
                       Register today to become part of the largest Hackathon in Pakistan!
                     </p>
+                  </div>
+                  <div>
+                    <img src="images/about_section_image.png" alt="">
                   </div>
                   <div class="phones">
                     <img
@@ -860,10 +866,11 @@ cubic-bezier(.075, .82, .165, 1)*/
             class="spinning"
           >
             <img
+            
               src="https://uploads-ssl.webflow.com/615cef747c36a89469258ec8/615d15083b5d5078529c84fe_Keep%20Scrolling.svg"
               loading="lazy"
               alt="Keep scrolling down the page"
-              class="scrolling-image"
+              class="scrolling-image image-block"
             />
           </div>
           <img
@@ -909,7 +916,7 @@ cubic-bezier(.075, .82, .165, 1)*/
                     class="services-collection-item horizontal-item w-dyn-item"
                   >
                     <div class="horizontal-container" id="themes">
-                      <div class="w-layout-grid services-grid">
+                      <div class="w-layout-grid services-grid themes-mobile">
                         <div
                           id="w-node-_0758f299-675a-e7e5-10e8-f797828f25ac-98b9e344"
                           class="heading-text-block"
@@ -957,14 +964,14 @@ cubic-bezier(.075, .82, .165, 1)*/
                           
                           <img
                             
-                            src="images/save_water.jpg"
+                            src="images/save_water_desktop.png"
                             loading="eager"
                             alt="A image showcasing branding"
                             sizes="(max-width: 767px) 90vw, (max-width: 991px) 65vw, 54vw"
                             srcset="
-                              images/save_water.jpg  800w,
-                              images/save_water.jpg 1080w,
-                              images/save_water.jpg 1560w
+                              images/save_water_desktop.png  800w,
+                              images/save_water_desktop.png 1080w,
+                              images/save_water_desktop.png 1560w
                             "
                             class="image full"
                           />
@@ -1051,14 +1058,14 @@ How can you encourage the public to adopt practices that will reduce their carbo
                           class="services-image"
                         >
                           <img
-                            src="images/clear_air.jpg"
+                            src="images/clear_air.PNG"
                             loading="eager"
                             alt="A image showcasing branding"
                             sizes="(max-width: 767px) 90vw, (max-width: 991px) 65vw, 54vw"
                             srcset="
-                              images/clear_air.jpg  800w,
-                              images/clear_air.jpg 1080w,
-                              images/clear_air.jpg 1560w
+                              images/clear_air.PNG  800w,
+                              images/clear_air.PNG 1080w,
+                              images/clear_air.PNG 1560w
                             "
                             class="image full"
                           />
@@ -1306,8 +1313,7 @@ We are looking for innovative solutions to improve the remote education experien
                           id="w-node-_2286c546-9eae-6e95-faba-317414ed2040-98b9e344"
                           class="heading-text-block-2"
                         >
-                        <h1 style="color: white; font-size: 25px">Themes</h1>
-                          <h2 class="h2-products">Save Water</h2>
+                       
                           <p class="services-paragraph">
                             There is ever-increasing water scarcity in Pakistan.
                             This is especially critical for an agro-based
@@ -1348,14 +1354,14 @@ We are looking for innovative solutions to improve the remote education experien
                           class="services-image"
                         >
                           <img
-                          src="images/save_water.jpg"
+                          src="images/save_water.png"
                             loading="eager"
                             alt="A nice branding"
                             sizes="100vw"
                             srcset="
-                              images/save_water.jpg  800w,
-                              images/save_water.jpg 1080w,
-                              images/save_water.jpg 1560w
+                              images/save_water.png  800w,
+                              images/save_water.png 1080w,
+                              images/save_water.png 1560w
                             "
                             class="image full"
                           />
@@ -1443,14 +1449,14 @@ How can you encourage the public to adopt practices that will reduce their carbo
                           class="services-image"
                         >
                           <img
-                          src="images/clear_air.jpg"
+                          src="images/clear_air_mobile.PNG"
                             loading="eager"
                             alt="A nice branding"
                             sizes="100vw"
                             srcset="
-                              images/clear_air.jpg  800w,
-                              images/clear_air.jpg 1080w,
-                              images/clear_air.jpg 1560w
+                              images/clear_air_mobile.PNG  800w,
+                              images/clear_air_mobile.PNG 1080w,
+                              images/clear_air_mobile.PNG 1560w
                             "
                             class="image full"
                           />
@@ -1536,13 +1542,13 @@ How can you encourage the public to adopt practices that will reduce their carbo
                           class="services-image"
                         >
                           <img
-                          src="images/zero_hunger.jpeg"
+                          src="images/zero_hunger_mobile.png"
                             loading="eager"
                             alt="A nice branding"
                             sizes="100vw"
                             srcset="
-                              images/zero_hunger.jpeg 1080w,
-                              images/zero_hunger.jpeg 1562w
+                              images/zero_hunger_mobile.png 1080w,
+                              images/zero_hunger_mobile.png 1562w
                             "
                             class="image full"
                           />
@@ -1631,13 +1637,13 @@ How can you encourage the public to adopt practices that will reduce their carbo
                         class="services-image"
                       >
                         <img
-                        src="images/education.jpg"
+                        src="images/education_mobile.png"
                           loading="eager"
                           alt="A nice branding"
                           sizes="100vw"
                           srcset="
-                          images/education.jpg 1080w,
-                          images/education.jpg 1562w
+                          images/education_mobile.png 1080w,
+                          images/education_mobile.png 1562w
                           "
                           class="image full"
                         />
@@ -1703,17 +1709,12 @@ How can you encourage the public to adopt practices that will reduce their carbo
                 class="values-wrap _1"
               >
                 <div class="values-sticky" id="registration">
-                  <div
-                    data-scroll="1"
-                    data-scroll-speed="-8"
-                    data-w-id="d37a14cf-ed04-adff-05b0-3d6e2d285b14"
-                    class="values-block _1"
-                  >
+                  <div>
                     <h3 class="h3-values">Registration Process</h3>
                     <p class="values-paragraph">
                       Fill out the form to register
                     </p>
-                    <p class="values-paragraph">Deadline: 9th Feb’2021</p>
+                    <p class="values-paragraph">Deadline: 16th Feb’2021</p>
                     <br>
                     <p class="values-paragraph">
                       <div class="registration">
@@ -1723,6 +1724,9 @@ How can you encourage the public to adopt practices that will reduce their carbo
                     <br>
                     <br>
                   </div>
+                  <div class="registration-image-parent">
+                    <img src="images/registration.jpg" >
+                  </div>
                 </div>
               </div>
               <!-- 02 Eligibility Criteria -->
@@ -1731,7 +1735,7 @@ How can you encourage the public to adopt practices that will reduce their carbo
                 data-w-id="ee031992-915b-e71f-f9e0-f1de1adf3a0a"
                 class="values-wrap right"
               >
-                <div class="values-sticky" style="display:flex">
+                <div class="values-sticky" id="eligibility">
                     <div>
                       <h3 class="h3-values">Eligibility Criteria</h3>
                       <p class="values-paragraph">
@@ -1739,31 +1743,25 @@ How can you encourage the public to adopt practices that will reduce their carbo
                         Business Backgrounds
                       </p>
                     </div>
-                    <div>
+                    <div class="eligibility-image-parent">
                       <img src="images/eligibility.jpg" >
                     </div>
                 </div>
               </div>
               <!--Eligibility Criteria End-->
               <!-- Raheel -->
-              <div
-                id="valuewrap3"
-                data-w-id="50ee3cdb-03ff-4611-415f-9cd3ce39763e"
-                class="values-wrap"
-              >
-                <div class="values-sticky">
-                  <div
-                    data-scroll-speed="-8"
-                    data-scroll="-1"
-                    data-w-id="48bb9ea9-44f2-dfa6-2303-d0809073ca1b"
-                    class="values-block _3"
-                  >
+              <div>
+                <div class="values-sticky" id="team">
+                  <div>
                     <h3 class="h3-values">Team Size</h3>
                     <p class="values-paragraph">3-4 individuals per team.</p>
                     <p class="values-paragraph">
                       You can apply as a team or as an individual (we can make a
                       team for you)
                     </p>
+                  </div>
+                  <div class="team-image-parent">
+                    <img src="images/team.jpg" >
                   </div>
                 </div>
               </div>
@@ -1772,19 +1770,17 @@ How can you encourage the public to adopt practices that will reduce their carbo
                 data-w-id="bdc64ade-01d6-08a6-8fdb-12a0ed939873"
                 class="values-wrap right"
               >
-                <div class="values-sticky">
-                  <div
-                    data-scroll="1"
-                    data-scroll-speed="-8"
-                    data-w-id="6fd55404-33ec-e0bc-02e2-c8db0aecdbf4"
-                    class="values-block _4"
-                  >
+                <div class="values-sticky" id="skills">
+                  <div>
                     <h3 class="h3-values">Skill Set Required</h3>
 
                     <p class="values-paragraph">
                       Graphic designers, interface designers, project managers,
                       domain experts, good presenter.
                     </p>
+                  </div>
+                  <div class="skills-image-parent">
+                    <img src="images/skills.jpg" >
                   </div>
                 </div>
               </div>
@@ -1793,9 +1789,9 @@ How can you encourage the public to adopt practices that will reduce their carbo
         </div>
       </section>
       <!-- display none speakers selected client list -->
-      <section style="display: none;" data-scroll-section="1" class="section clients wf-section">
+      <section  data-scroll-section="1" class="section clients wf-section">
         <div class="container clients">
-          <div class="client-list">
+          <div class="client-list" style="display: none;">
             <div class="regular-text no-bottom">selected clients list</div>
             <div class="w-layout-grid client-list-grid">
               <img
@@ -1835,9 +1831,10 @@ How can you encourage the public to adopt practices that will reduce their carbo
               />
             </div>
           </div>
-          <div class="also-learn">
+          <div id="prizes" class="also-learn">
             <div class="regular-text left-margin">Prizes</div>
-            <div class="w-layout-grid also-grid">
+            <div id="prizes-cards" class="w-layout-grid also-grid">
+              <!-- winner -->
               <a
                 data-w-id="ae7904f4-e6b2-8545-1692-9772a5f91a04"
                 href="javascript:void(0)"
@@ -1976,16 +1973,50 @@ How can you encourage the public to adopt practices that will reduce their carbo
       <footer data-scroll-section="1" class="section footer wf-section">
         <div class="container footer">
           <div class="giant-contact-block">
-            <div class="giant-text white-dim footer-giant">contact</div>
-            <div class="giant-text white-dim footer-giant">contact</div>
-            <div class="giant-text white-dim footer-giant">contact</div>
-            <div class="giant-text white-dim footer-giant">contact</div>
+            <div style="font-size: 150px;" class="giant-text white-dim footer-giant">DevNation</div>
+            <div style="font-size: 150px;" class="giant-text white-dim footer-giant">DevNation</div>
+            <div style="font-size: 150px;" class="giant-text white-dim footer-giant">DevNation</div>
+            <div style="font-size: 150px;" class="giant-text white-dim footer-giant">DevNation</div>
           </div>
+
+
+          <!-- contact botton -->
           <div id="contact" class="contact-block">
-            <div class="thin-text">contact us</div>
+            <div style="display: none;" class="thin-text">contact us</div>
             <div class="say-hello-block">
-              <h2 class="h2-contact">
-                <span class="footer-span">Say hello we </span
+              <h2  class="h2-contact">
+                <span class="footer-span">Say hello we&nbsp;</span
+                ><span class="footer-span-2">don&#x27;t byte!</span>
+              </h2>
+            </div>
+            
+            <div>
+              <a style="opacity: 0;display: none;" href="">Contact Us</a>
+            </div>
+            <div class="div-block-5">
+              <a
+                href="https://www.linkedin.com/company/yjcollective/"
+                target="_blank"
+                class="linkedin w-inline-block"
+                style="display: none;"
+                ><img
+                  src="https://uploads-ssl.webflow.com/615cef747c36a89469258ec8/615d3e7650cb2981dd722ef2_LinkedIn.svg"
+                  loading="eager"
+                  alt=""
+                  class="image"
+              /></a>
+              <div style="opacity: 0;" class="">Website Developed by DevNation</div>
+              <div style="opacity: 0;" class="thin-text copyright">© 2022</div>
+            </div>
+          </div>
+
+
+
+          <div id="contact" class="contact-block">
+            <div style="display: none;" class="thin-text">contact us</div>
+            <div style="opacity: 0;" class="say-hello-block">
+              <h2  class="h2-contact">
+                <span class="footer-span">Say hello we&nbsp;</span
                 ><span class="footer-span-2">don&#x27;t byte!</span>
               </h2>
             </div>
@@ -1996,6 +2027,7 @@ How can you encourage the public to adopt practices that will reduce their carbo
                 class="email-link w-inline-block"
               >
                 <h3 class="h3-email">fatima.jameel@thedevnation.com</h3>
+               
                 <div class="hello-underline">
                   <div class="hello-grow"></div>
                 </div> </a
@@ -2003,6 +2035,9 @@ How can you encourage the public to adopt practices that will reduce their carbo
                 
                
               </a>
+            </div>
+            <div >
+              <a style="display: none;" href="">Contact Us</a>
             </div>
             <div class="div-block-5">
               <a
@@ -2020,6 +2055,12 @@ How can you encourage the public to adopt practices that will reduce their carbo
               <div class="thin-text copyright">© 2022</div>
             </div>
           </div>
+
+          
+
+
+
+
         </div>
       </footer>
     </div>
@@ -2104,6 +2145,10 @@ How can you encourage the public to adopt practices that will reduce their carbo
 
         $("#go-to-registration").on("click", function() {
           locoScroll.scrollTo(registration)
+        })
+
+        $("#go-to-prizes").on("click", function() {
+          locoScroll.scrollTo(prizes)
         })
 
         

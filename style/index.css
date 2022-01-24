@@ -1849,10 +1849,10 @@ h1 {
 h2 {
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Ebgaramond, sans-serif;
+  font-family: "Montserrat";
   font-size: 1vw;
   line-height: 1.25;
-  font-weight: 400;
+  font-weight: 500;
 }
 h3 {
   margin-top: 0;
@@ -1981,7 +1981,8 @@ img {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 19.93em;
+  /* padding-top: 19.93em; */
+  padding-top: 0;
   padding-bottom: 6.94em;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -2858,7 +2859,7 @@ img {
   font-size: 0.8em;
 }
 .say-hello-block {
-  width: 50%;
+  width: 100% !important;
   margin-top: 1.81em;
   margin-bottom: 4.03em;
 }
@@ -2894,7 +2895,7 @@ img {
   text-decoration: none;
 }
 .h3-email {
-  font-size: 3.89em;
+  font-size: 2.89em;
   font-weight: 400;
   letter-spacing: 0.1em;
 }
@@ -4995,7 +4996,7 @@ img {
     font-size: 1.5vw;
   }
   .section.clients {
-    display: none;
+    /* display: none; */
   }
   .section.absolute.padding-bottom {
     padding-top: 20em;
@@ -6062,9 +6063,9 @@ section#sticksect {
   margin-top: 0 !important;
 }
 
-div#steps-parent {
+/* div#steps-parent {
   margin-top: 0;
-}
+} */
 
 @media screen and (max-width: 325px) {
   div.apply_now_header > a {
@@ -6075,3 +6076,120 @@ div#steps-parent {
 /* html {
   overflow-y: scroll !important;
 } */
+
+div#registration,
+div#eligibility,
+div#team,
+div#skills {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+}
+
+div.registration-image-parent,
+div.eligibility-image-parent,
+div.team-image-parent,
+div.skills-image-parent {
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  div#registration,
+  div#eligibility,
+  div#team,
+  div#skills {
+    display: flex;
+    flex-direction: column;
+  }
+
+  section#sticksect {
+    margin: 40px 0;
+  }
+  div.apply_now_header > a {
+    width: 70%;
+  }
+
+  div#prizes-cards {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+div#navbar-data {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 500px) {
+  div#navbar-data {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  div.keep-scrolling {
+    display: none;
+  }
+
+  /* about */
+
+  div.latest-block {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .header.home {
+    margin-top: 3em;
+  }
+
+  /* apply now header */
+  div.apply_now_header > a {
+    width: 52%;
+    font-size: 20px;
+    padding: 12px 10px;
+    border-radius: 12px;
+  }
+
+  div.phones > img {
+    position: relative;
+    top: -19px;
+  }
+
+  div#about {
+    margin-top: 10px !important;
+  }
+
+  div.themes-mobile {
+    width: 100%;
+  }
+
+  div.apply_now_header {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  div#team {
+    margin-top: 220px;
+  }
+
+  div.team-image-parent {
+    margin-top: 30px;
+  }
+  div.team-image-parent > img {
+    width: 259px;
+  }
+
+  div#skills {
+    padding-top: 0 !important;
+  }
+
+  div#team {
+    padding-bottom: 0;
+  }
+  /* div#locom {
+    background-image: url("../images/section_background.png");
+  } */
+}
